@@ -13,7 +13,7 @@ p {
   font-size: 16px;
 }
 
-/* featured part or the first section part */
+/* featured part or the first section part start */
 .first-container {
   background-color: #341f97;
   margin-bottom: 70px;
@@ -61,8 +61,9 @@ p {
   transform: scale(1.2);
   transition: transform 1s ease-in-out;
 }
+/* featured part or the first section part end */
 
-/* all players styles */
+/* all players styles start */
 main {
   display: flex;
   justify-content: center;
@@ -84,7 +85,9 @@ main {
   height: 256px;
   width: 300px;
 }
-/* bonus section- Top Products */
+/* all players styles end */
+
+/* bonus section- Top Products start */
 .product-container {
   margin-top: 120px;
 }
@@ -120,7 +123,9 @@ main {
   height: 256px;
   width: 270px;
 }
-/* bonus section- Academy facilities */
+/* bonus section- Top Products end */
+
+/* bonus section- Academy facilities start*/
 .academy-container {
   margin-top: 120px;
 }
@@ -150,8 +155,9 @@ main {
 .blog-info {
   margin-left: 16px;
 }
+/* bonus section- Academy facilities end*/
 
-/* footer style */
+/* footer style start */
 .footer-info {
   display: flex;
   flex-direction: column;
@@ -171,8 +177,9 @@ main {
   color: #74b9ff;
   cursor: pointer;
 }
+/* footer style end */
 
-/* Media Queries start */
+/*------------------------- Media Queries start ---------------------------*/
 
 /* Media Queries for Mobile devices start*/
 
@@ -185,7 +192,6 @@ main {
   }
   .banner-text {
     width: 180px;
-    /* padding-left: 14px; */
   }
   .half-width img {
     width: 100%;
@@ -228,7 +234,7 @@ main {
 }
 /* Media Queries for Mobile devices end*/
 
-/* Media Queries for tablet devices start */
+/* Media Queries for Tablet devices start */
 @media screen and (min-width: 481px) and (max-width: 768px) {
   /* .featured-info */
   .featured-info {
@@ -275,4 +281,4 @@ main {
     width: 60%;
   }
 }
-/* Media Queries for tablet devices end */
+/* Media Queries for Tablet devices end */
