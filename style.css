@@ -7,10 +7,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
-}
-h1 {
-  font-size: 28px;
-  font-weight: 700;
+  text-decoration: none;
 }
 p {
   font-size: 16px;
@@ -19,6 +16,42 @@ main {
   display: flex;
   justify-content: center;
 }
+
+/* featured part or the first section part */
+.container {
+  background-color: #341f97;
+}
+.featured-info {
+  display: flex;
+}
+.half-width {
+  width: 50%;
+}
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.half-width h1 {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 80px;
+  color: white;
+  /* margin: 207px 799px 240px 156px; */
+}
+.half-width img {
+  width: 80%;
+}
+.watch-live {
+  padding: 10px 24px;
+  color: white;
+  background-color: #e02c6d;
+}
+.banner-img {
+  width: 556px;
+  height: 438px;
+}
+
 /* all players styles */
 .all-players {
   display: grid;
@@ -36,4 +69,23 @@ main {
 .player img {
   height: 256px;
   width: 300px;
+}
+
+/* footer style */
+.footer-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 166px;
+}
+.social-icon .circle {
+  background-color: #dfe6e9;
+  padding: 10px;
+  border-radius: 50%;
+  margin-right: 15px;
+  margin-bottom: 20px;
+}
+.social-icon .circle:hover {
+  color: #74b9ff;
 }
