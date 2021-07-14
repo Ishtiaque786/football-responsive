@@ -37,7 +37,6 @@ main {
   font-size: 64px;
   line-height: 80px;
   color: white;
-  /* margin: 207px 799px 240px 156px; */
 }
 .half-width img {
   width: 80%;
@@ -69,6 +68,38 @@ main {
 .player img {
   height: 256px;
   width: 300px;
+}
+/* bonus section- Top Products */
+.product-container {
+  margin-top: 120px;
+}
+.product-area-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
+  font-size: 23px;
+  font-weight: 400;
+}
+.product-area-title span {
+  font-size: 30px;
+  color: #ff6b6b;
+}
+.products {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-left: 20px;
+}
+.product {
+  height: 390px;
+  width: 300px;
+  padding: 15px;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.product-img {
+  height: 256px;
+  width: 270px;
 }
 
 /* footer style */
