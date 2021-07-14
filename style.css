@@ -178,28 +178,26 @@ main {
 
 @media screen and (max-width: 480px) {
   /* .featured-info */
-  .first-container {
-    /* flex-direction: column; */
-    height: 625px;
-    /* width: 360px; */
-    width: 100%;
-  }
+  /* .first-container {
+    
+  } */
   .featured-info {
     flex-direction: column;
   }
-  /* .half-width */
-  .banner-text {
-    height: 138px;
-    width: 278px;
-    margin-top: 112px;
-    margin-left: 15px;
-  }
-  .half-width img {
+  .half-width {
     width: 50%;
   }
-
+  .banner-text {
+    width: 180px;
+  }
+  .half-width img {
+    width: 100%;
+    margin-top: 100px;
+  }
   .half-width h1 {
     font-size: 20px;
+    /* height: 138px;
+    width: 278px; */
   }
   .all-players,
   .products {
